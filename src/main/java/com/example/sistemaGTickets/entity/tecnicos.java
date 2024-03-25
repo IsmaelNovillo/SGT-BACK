@@ -27,7 +27,7 @@ public class tecnicos {
     @Column(name = "apellido")
     private String apellido;
 
-    @Column(name = "cedula")
+    @Column(name = "cedula", length = 10)
     private int cedula;
 
     @Column(name = "fecha_nacimiento")

@@ -18,7 +18,7 @@ public class clientes {
     @Column (name = "id")
     private Integer id ;
 
-    @Column(name = "cedula")
+    @Column(name = "cedula", length = 10)
     private int cedula;
 
     @Column(name = "nombre")
